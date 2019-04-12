@@ -24,6 +24,7 @@ defaults:
       type: pages
     values:
       layout: single
+      classes: wide
       header:
         overlay_image: "/assets/images/mountains2.jpg"
        
@@ -33,7 +34,6 @@ defaults:
       path: "about"
       type: pages
     values:
-      layout: single
       sidebar:
         nav: "s_about"
         
@@ -41,7 +41,6 @@ defaults:
       path: "services"
       type: pages
     values:
-      layout: single
       sidebar:
         nav: "s_services"
         
@@ -49,7 +48,6 @@ defaults:
       path: "reinsurance"
       type: pages
     values:
-      layout: single
       sidebar:
         nav: "s_reinsurance"
         
@@ -57,7 +55,6 @@ defaults:
       path: "partners"
       type: pages
     values:
-      layout: single
       sidebar:
         nav: "s_partners"            
 
