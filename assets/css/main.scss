@@ -8,8 +8,11 @@
 $mylinkcolor: #445879;
 $masthead-link-color: $mylinkcolor;
 $link-color: $mylinkcolor;
-      
+   
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+page__content p {text-align: justify;}
