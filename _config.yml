@@ -8,7 +8,7 @@ locale: "ru-RU"
 
 title: "Скала Страховой Брокер"
 
-logo: "/assets/images/logo.jpg"
+logo: "/assets/images/logo.png"
 
 
 description: ""
@@ -26,7 +26,7 @@ defaults:
       layout: single
       classes: wide
       header:
-        overlay_image: "/assets/images/m2.png"
+        overlay_image: "/assets/images/m2.jpg"
        
 
         
