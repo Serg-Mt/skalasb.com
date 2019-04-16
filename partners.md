@@ -1,5 +1,5 @@
 ---
-title: "Пертнеры"
+title: "Партнеры"
 sidebar:
   nav: "s_partners"
 ---
