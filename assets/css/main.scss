@@ -4,7 +4,10 @@
 
 @charset "utf-8";
 
-$masthead-link-color: #445879;
+
+$mylinkcolor: #445879;
+$masthead-link-color: $mylinkcolor;
+$link-color: $mylinkcolor;
       
 
 
