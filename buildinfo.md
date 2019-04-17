@@ -1,10 +1,7 @@
 ---
 ---
 
-<pre>
-    site: {{ site | jsonify | escape }}
-    page: {{ page | jsonify | escape }}
-    layout: {{ layout | jsonify | escape }}
-    content: {{ content | jsonify | escape }}
-    paginator: {{ paginator | jsonify | escape }}
-</pre>
+site: {{ site |inspect}}
+layout: {{ layout | jsonify | escape }}
+    
+
