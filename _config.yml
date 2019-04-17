@@ -6,6 +6,7 @@ plugins:
   - jekyll-offline
 
 locale: "ru-RU"
+timezone: Europe/Moscow
 
 title: "Скала Страховой Брокер"
 
