@@ -1,7 +1,8 @@
 ---
 ---
 
-site: {{ site |inspect}}
-layout: {{ layout | jsonify | escape }}
+
+layout: {{ layout | jsonify  | newline_to_br | escape }}<br>
+layout: {{ layout | inspect  | newline_to_br | escape }}
     
 
