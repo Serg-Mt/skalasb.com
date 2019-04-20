@@ -11,6 +11,9 @@ title: "Скала Страховой Брокер"
 
 logo: "/assets/images/logo.png"
 
+collections:
+ reinslogo:
+  output: true
 
 description: ""
 
