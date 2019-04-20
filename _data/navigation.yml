@@ -34,23 +34,23 @@ s_reinsurance:
   - title: "Имущество"
     url: /reinsurance/property
   - title: "Авиация"
-    url: /reinsurance/2
+    url: /reinsurance/aviation
   - title: "Строймонтаж"
-    url: /reinsurance/3
+    url: /reinsurance/build
   - title: "Грузы"
-    url: /reinsurance/4
+    url: /reinsurance/loads
   - title: "Ответственность"
-    url: /reinsurance/5
+    url: /reinsurance/liability
   - title: "Нефтяные риски"
-    url: /reinsurance/6
-  - title: "Каско"
-    url: /reinsurance/7
-  - title: "Сельхоз страхование"
-    url: /reinsurance/8
+    url: /reinsurance/petroleum
   - title: "Несчастный случай"
-    url: /reinsurance/9
-  - title: "Финансовые риски"
-    url: /reinsurance/10
+    url: /reinsurance/accident
+  - title: "Музеи и выставки"
+    url: /reinsurance/museums
+  - title: "Санкционные риски"
+    url: /reinsurance/sanctions
+  - title: "Катастрофическое покрытие"
+    url: /reinsurance/catastrophe
    
 s_partners:
   - title: "Страховщики"
