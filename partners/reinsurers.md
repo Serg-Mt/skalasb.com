@@ -7,7 +7,7 @@ title: "Перестраховщики"
 
 {{site.collections}}
 
-{% for logo in site.reinslogo.static_files %}
-    <img src="{{ logo.path }}">
+{% for logo in site.reinslogo %}
+    <img src="{{ logo.url }}">
     <br>
 {% endfor %}
