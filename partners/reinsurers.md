@@ -10,7 +10,7 @@ title: "Перестраховщики"
 
 {{ site.reinslogo | jsonify | escape }}
 
-{% for logo in site.reinslogo %}
-    <img src="{{ logo.url }}">
+{% for logo in site.collections.reinslogo.files %}
+    -<img src="{{ logo.url }}">
     <br>
 {% endfor %}
