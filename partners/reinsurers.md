@@ -5,7 +5,10 @@ title: "Перестраховщики"
 
 Имея долгосрочные отношения со всеми российскими и международными перестраховщиками, мы можем качественно и оперативно организовывать перестраховочные программы любой сложности.
 
-{{site.collections}}
+
+{{ site.collections | jsonify | escape }}
+
+{{ site.reinslogo | jsonify | escape }}
 
 {% for logo in site.reinslogo %}
     <img src="{{ logo.url }}">
