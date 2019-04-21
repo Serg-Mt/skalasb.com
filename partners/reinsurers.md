@@ -7,12 +7,13 @@ title: "Перестраховщики"
 
 
 {{ site.collections | jsonify | escape }}
-<br>
+<hr>
 {{ site.collections.reinslogo.files | jsonify | escape }}
-<br>
+<hr>
 {{ site.reinslogo | jsonify | escape }}
+<hr>
 
-{% for logo in site.collections.reinslogo.files %}
-    -<img src="{{ logo.url }}">
+{% for logos in site.reinslogo %}
+    -<img src="{{ logos.url }}">
     <br>
 {% endfor %}
