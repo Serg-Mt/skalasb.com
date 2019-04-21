@@ -14,6 +14,7 @@ title: "Перестраховщики"
 <hr>
 
 {% for logos in site.reinslogo %}
-    -<img src="{{ logos.path }}">
+    <img src="{{ logos.path }}">
+    logos.url
     <br>
 {% endfor %}
