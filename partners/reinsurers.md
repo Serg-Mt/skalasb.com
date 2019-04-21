@@ -7,7 +7,9 @@ title: "Перестраховщики"
 
 
 {{ site.collections | jsonify | escape }}
-
+<br>
+{{ site.collections.reinslogo.files | jsonify | escape }}
+<br>
 {{ site.reinslogo | jsonify | escape }}
 
 {% for logo in site.collections.reinslogo.files %}
