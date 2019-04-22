@@ -28,7 +28,7 @@ defaults:
       layout: single
       classes: wide
       header:
-        overlay_image: "/assets/images/m2.jpg"
+        overlay_image: "/assets/images/r1.jpg"
        
 
         

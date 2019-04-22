@@ -4,7 +4,7 @@ main:
   - title: "Услуги"
     url: /services
   - title: "Перестрахование"
-    url: /reinsurance
+    url: /reinsurance/property
   - title: "Партнеры"
     url: /partners
   - title: "Контакты"
