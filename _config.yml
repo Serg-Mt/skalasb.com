@@ -52,6 +52,7 @@ defaults:
     values:
       sidebar:
         nav: "s_reinsurance"
+      header: []
         
   - scope:
       path: "partners"
