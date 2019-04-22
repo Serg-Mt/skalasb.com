@@ -2,7 +2,7 @@
 title: "Ответственность"
 ---
 
-![image-left](/assets/images/reinsurance/liability.jpg){: .align-left}
+![full](/assets/images/reinsurance/liability.jpg)
 
 СКАЛА размещает в перестрахование риски общегражданской и профессиональной ответственности. 
 

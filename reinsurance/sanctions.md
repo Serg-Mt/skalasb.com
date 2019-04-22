@@ -2,7 +2,7 @@
 title: "Санкционные риски"
 ---
 
-![image-left](/assets/images/reinsurance/sanctions.jpg){: .align-left}
+![full](/assets/images/reinsurance/sanctions.jpg)
 
 В условиях жестких санкционных ограничений, применяемых к Российской Федерации, возникает потребность в размещении рисков, которые Запад больше принять не может.
 

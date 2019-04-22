@@ -2,7 +2,7 @@
 title: "Музеи и выставки"
 ---
 
-![image-left](/assets/images/reinsurance/museums.jpg){: .align-left}
+![full](/assets/images/reinsurance/museums.jpg)
 
 
 СКАЛА предлагает размещение в перестрахование музейных экспонатов.

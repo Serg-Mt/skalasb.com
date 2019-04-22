@@ -2,7 +2,7 @@
 title: "Строймонтажные риски"
 ---
 
-![image-left](/assets/images/reinsurance/build.jpg){: .align-left}
+![full](/assets/images/reinsurance/build.jpg)
 
 
 Строительство зданий, сооружений, дорог, технических объектов сопряжено с высоким уровнем риска. 

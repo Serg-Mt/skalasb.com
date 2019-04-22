@@ -2,7 +2,7 @@
 title: "Катастрофическое покрытие"
 ---
 
-![image-left](/assets/images/reinsurance/catastrophe.jpg){: .align-left}
+![full](/assets/images/reinsurance/catastrophe.jpg)
 
 
 Катастрофическое покрытие применяется для комплексной защиты всего страхового портфеля от рисков, которые произошли по причине природных явлений. 
