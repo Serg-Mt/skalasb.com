@@ -19,5 +19,20 @@ $footer-background-color: #c8e4ee;
 .page__content p {text-align: justify;}
 .page__footer-copyright {color: $mylinkcolor;}
 .nav__sub-title {color: $mylinkcolor;}
+.page__footer { 
+	background-image: url(/assets/images/r1.jpg);
+    	background-size: cover;
+    	background-repeat: no-repeat;
+  	background-position: bottom; 
+}
+.page__footer-copyright {
+    color: #fff;
+    text-shadow: 0px 0px 7px #000;
+}
 .page__footer footer {  margin-top: 1em;     padding-bottom: 1em;}
-.masthead__menu-item span {text-shadow: 4px 4px 4px #435779;}
+.masthead__menu-item span {text-shadow: 4px 4px 4px #435779; cursor:default;}
+.masthead {
+    position: sticky;
+    background: white;
+    top:0;
+}

@@ -8,7 +8,9 @@ title: "Перестраховщики"
 
 {{ site.collections | jsonify | escape }}
 <hr>
-{{ site.collections.reinslogo.files | jsonify | escape }}
+{{ site.collections | where: "label", "myCollection" |
+<hr>
+{{ site.collections.reinslogo | jsonify | escape }}
 <hr>
 {{ site.reinslogo | jsonify | escape }}
 <hr>
