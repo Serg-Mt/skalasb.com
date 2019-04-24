@@ -1,5 +1,6 @@
 ---
 title: "Наши контакты"
+layout: splash
 place: contacts
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "&nbsp;"
+layout: splash
 ---
 
 Уважаемые коллеги,
