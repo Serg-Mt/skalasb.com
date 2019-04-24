@@ -20,7 +20,7 @@
               {%- assign url = link.url | relative_url -%}
             {%- endif -%}
             <li class="masthead__menu-item">
-              {% if link.url == node.url %}
+              {% if url == page.url %}
                 <span>{{ link.title }}</span>            
               {% else %}             
                 <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>               
