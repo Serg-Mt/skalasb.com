@@ -2,9 +2,7 @@
 title: "Катастрофическое покрытие"
 ---
 
-![full](/assets/images/reinsurance/catastrophe.jpg)
-
-
+![image-left](/assets/images/reinsurance/catastrophe.jpg){: .align-left}
 Катастрофическое покрытие применяется для комплексной защиты всего страхового портфеля от рисков, которые произошли по причине природных явлений. 
 
 Катастрофическая защита (CAT XL - Catastrophic Excess of Loss reinsurance) поможет избежать кумуляции при наступлении многочисленных убытков в результате одного события. 

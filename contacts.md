@@ -3,7 +3,7 @@ title: "Наши контакты"
 place: contacts
 ---
 
-<-- ![image-center](/assets/images/facade.jpg){: .align-left} -->
+<!-- ![image-center](/assets/images/facade.jpg){: .align-left} -->
 «Скала Страховой Брокер» ООО
 
 127055, г. Москва, Сущевская ул., д.12, стр.1. Бизнес центр Сущевский 

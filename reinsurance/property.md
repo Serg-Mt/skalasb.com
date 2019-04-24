@@ -2,8 +2,7 @@
 title: "Имущество"
 ---
 
-![full](/assets/images/reinsurance/property.jpg)
-
+![image-left](/assets/images/reinsurance/property.jpg){: .align-left}
 СКАЛА предлагает услуги по размещению в перестрахование следующих объектов:
 
 - Здания (жилые, коммерческие или промышленные), включая внутреннюю отделку;
