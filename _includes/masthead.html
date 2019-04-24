@@ -19,8 +19,8 @@
             {%- else -%}
               {%- assign url = link.url | relative_url -%}
             {%- endif -%}
-            <li class="masthead__menu-item"><!-- p={{ page.category }} l={{ link.category }} -->
-              {% if page.category == link.category %}
+            <li class="masthead__menu-item"><!-- p={{ page.place }} l={{ link.place }} -->
+              {% if page.place == link.place %}
                 <span>{{ link.title }}</span>            
               {% else %}             
                 <a href="{{ url }}" {% if link.description %}title="{{ link.description }}"{% endif %}>{{ link.title }}</a>               

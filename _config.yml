@@ -36,7 +36,7 @@ defaults:
       path: "about"
       type: pages
     values:
-      category: "about"
+      place: "about"
       sidebar:
         nav: "s_about"
         
@@ -44,7 +44,7 @@ defaults:
       path: "services"
       type: pages
     values:
-      category: "services"
+      place: "services"
       sidebar:
         nav: "s_services"
         
@@ -52,7 +52,7 @@ defaults:
       path: "reinsurance"
       type: pages
     values:
-      category: "reinsurance"
+      place: "reinsurance"
       sidebar:
         nav: "s_reinsurance"
       header: []
@@ -61,7 +61,7 @@ defaults:
       path: "partners"
       type: pages
     values:
-      category: "partners"
+      place: "partners"
       sidebar:
         nav: "s_partners"            
 

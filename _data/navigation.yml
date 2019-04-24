@@ -1,19 +1,19 @@
 main:
   - title: "О компании"
     url: /about/
-    category: "about"
+    place: "about"
   - title: "Услуги"
     url: /services/
-    category: "services"
+    place: "services"
   - title: "Перестрахование"
     url: /reinsurance/property
-    category: "reinsurance"
+    place: "reinsurance"
   - title: "Партнеры"
     url: /partners/
-    category: "partners"
+    place: "partners"
   - title: "Контакты"
     url: /contacts
-    category: "contacts"
+    place: "contacts"
 
 s_about:
   - title: "Информация"

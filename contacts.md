@@ -1,6 +1,6 @@
 ---
 title: "Наши контакты"
-category: contacts
+place: contacts
 ---
 
 ![image-center](/assets/images/facade.jpg){: .align-left}
