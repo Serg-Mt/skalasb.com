@@ -5,8 +5,11 @@ plugins:
   - jekyll-sitemap
 
 markdown: kramdown
+
 kramdown:
-  parse_block_html: true
+   input: GFM
+   hard_wrap: false
+ future: true
 
 locale: "ru-RU"
 timezone: Europe/Moscow
