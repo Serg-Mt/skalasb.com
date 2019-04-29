@@ -1,4 +1,5 @@
 ---
+title:"Отзывы"
 ---
 
 <figure>
@@ -6,12 +7,11 @@
 	<figcaption>АО «ОСК»</figcaption>
 </figure>
 
-{% include figure image_path="/assets/images/letter_osk_l.jpg" caption="АО «ОСК»" %}
 
-<!-- <figure>
+<figure>
 	<a href="/assets/images/letter_tit_l.jpg"><img src="/assets/images/letter_tit_s.jpg"/></a>
 	<figcaption>ООО «Страховая компания «ТИТ»</figcaption>
-</figure> -->
+</figure>
 
 <!-- <figure>
 	<a href=""><img src=""></a>
