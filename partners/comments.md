@@ -3,12 +3,12 @@
 
 <figure>
 	<a href="/assets/images/letter_osk_s.jpg"><img src="/assets/images/letter_osk_l.jpg"/></a>
-	<figcaption>АО «ОСК»</figcaption>
+	<figcaption>РђРћ В«РћРЎРљВ»</figcaption>
 </figure>
 
 <figure>
 	<a href="/assets/images/letter_tit_s.jpg"><img src="/assets/images/letter_tit_l.jpg"/></a>
-	<figcaption>ООО «Страховая компания «ТИТ»</figcaption>
+	<figcaption>РћРћРћ В«РЎС‚СЂР°С…РѕРІР°СЏ РєРѕРјРїР°РЅРёСЏ В«РўРРўВ»</figcaption>
 </figure>
 
 <!-- <figure>
