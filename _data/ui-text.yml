@@ -570,7 +570,7 @@ ru: &DEFAULT_RU
   pagination_next            : "Следующая"
   breadcrumb_home_label      : "Главная"
   breadcrumb_separator       : "/"
-  menu_label                 : "Выпадающее меню"
+  menu_label                 : "Меню разделов"
   search_label               :
   toc_label                  : "Содержание"
   ext_link_label             : "Прямая ссылка"
