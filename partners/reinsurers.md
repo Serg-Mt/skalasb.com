@@ -15,8 +15,9 @@ title: "Перестраховщики"
 {{ site.reinslogo | jsonify | escape }}
 <hr>
 
-{% for logos in site.reinslogo %}
-    <img src="{{ logos.path }}">
-    logos.url
+{%- assign logos = site.collections | where: "label", "reinslogo" -%}
+{% for logo in logos %}
+    <img src="{{ logo.path }}">
+    logo.url
     <br>
 {% endfor %}
