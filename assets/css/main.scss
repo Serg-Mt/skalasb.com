@@ -30,7 +30,8 @@ $footer-background-color: #c8e4ee;
     text-shadow: 0px 0px 7px #000;
 }
 .page__footer footer {  margin-top: 1em;     padding-bottom: 1em;}
-.masthead__menu-item span { font-weight: bold;/* text-shadow: 4px 4px 4px #435779; cursor:default;*/ }
+.greedy-nav a:before { color: $mylinkcolor; }
+.masthead__menu-item span { font-weight: bold; color:$mylinkcolor;/* text-shadow: 4px 4px 4px #435779; cursor:default;*/ }
 .masthead {
     position: sticky;
     background: white;
@@ -49,3 +50,5 @@ li {
     list-style-position: inside;
     list-style-type: square;
 }
+
+details  *:not(summary) {padding-left: 1em;}
