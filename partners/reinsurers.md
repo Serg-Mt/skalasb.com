@@ -17,7 +17,7 @@ title: "Перестраховщики"
 
 {%- assign logos = site.collections | where: "label", "reinslogo" -%}
 {% for logo in logos %}
-    <img src="{{ logo.path }}">
-    logo.url
-    <br>
+<img src="{{ logo.path }}">
+logo.url
+<br>
 {% endfor %}
