@@ -51,4 +51,10 @@ li {
     list-style-type: square;
 }
 
-details  *:not(summary) {padding-left: 1em;}
+details  *:not(summary) {
+    padding-left: 1em;
+}
+
+summary {
+    font-weight: bold;
+}
