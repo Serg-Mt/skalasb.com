@@ -1,6 +1,5 @@
 ---
 title: "Руководство"
-classes: wide
 ---
 
 ![image-left](/assets/images/gendirfoto.jpg){: .align-left}
