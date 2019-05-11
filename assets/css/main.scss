@@ -57,4 +57,9 @@ details  *:not(summary) {
 
 summary {
     font-weight: bold;
+	cursor: pointer;
+}
+
+.mfp-close {
+	cursor: pointer;
 }
