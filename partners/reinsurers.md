@@ -32,7 +32,7 @@ logo.url
   Path: {{ file.path }}
 </div>
 {% endfor %}
-{% endunless %}
+{% endif %}
 {% endfor %}
 
 
