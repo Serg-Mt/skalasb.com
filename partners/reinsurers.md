@@ -22,3 +22,17 @@ title: "Перестраховщики"
 logo.url
 <br>
 {% endfor %}
+<hr>
+
+{% for coll in site.collections %}
+{% if coll.label == "reinslogo" %}
+{% for file in coll.files %}
+<div>
+  Name: {{ file.name }}
+  Path: {{ file.path }}
+</div>
+{% endfor %}
+{% endunless %}
+{% endfor %}
+
+
