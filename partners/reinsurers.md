@@ -33,7 +33,7 @@ images:
 
 
 {% for logo in page.images %}
-<img src="{{ image.image_path }}">
+<img src="{{ logo.image_path }}">
 {% endfor %}
 <hr>
 
