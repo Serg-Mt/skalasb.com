@@ -1,4 +1,5 @@
 ---
+permalink: /_buildinfo
 ---
 build: {{ site.time }}<br/>
 {{ jekyll | jsonify }}<br/>
