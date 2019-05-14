@@ -12,11 +12,11 @@ jekyll: {{ jekyll | jsonify  | newline_to_br | escape }}<hr>
 static_files: {{ site.static_files | jsonify | newline_to_br | escape }}<hr> -->
 <ul>
 {% for p in site.pages %}
-<li><a href="{{ p.url}}">{{ p.url}}</a>{{ p.title }}</li>
+<li><a href="{{ p.url}}">{{ p.url}}</a> &ndash; {{ p.title }}</li>
 {% endfor %}
 <hr/>
 {% for d in site.documents %}
-<li><a href="{{ d.url}}">{{ d.url}}</a>{{ d.title }}</li>
+<li><a href="{{ d.url}}">{{ d.url}}</a> &ndash; {{ d.title }}</li>
 {% endfor %}
 <hr/>
 {% for file in site.static_files %}
