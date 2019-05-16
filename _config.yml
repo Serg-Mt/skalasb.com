@@ -1,10 +1,11 @@
 remote_theme: mmistakes/minimal-mistakes@4.16.3
 
 exclude: 
-  - /assets/js/lunr/
+  - /assets/js/lunr/*
 
 plugins:
-  - jekyll-include-cache  
+  - jekyll-include-cache
+  - jekyll-sitemap  
 
 markdown: kramdown
 
