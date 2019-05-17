@@ -6,11 +6,12 @@ title: "Перестраховщики"
 
 <p>Имея долгосрочные отношения со всеми российскими и международными перестраховщиками, мы можем качественно и оперативно организовывать перестраховочные программы любой сложности.</p>
 
+<div style="display: flex;justify-content: space-between;">
 {% assign image_files = site.static_files | where: "image", true |  sort: "path" %}
 {% for myimage in image_files %}
   <img src="{{ myimage.path }}">
 {% endfor %}
-
+</div>
 
 
 
