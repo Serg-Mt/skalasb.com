@@ -1,5 +1,7 @@
 {% if page.lang == 'en' %}
   {% assign site_title = site.en_title %}
+  {% assign relative_url = '/en' %}
+  {% assign site.locale = 'en' %}
 {% else %}
   {% assign site_title = site.title %}
 {% endif %}
