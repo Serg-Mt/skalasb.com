@@ -24,7 +24,13 @@ description: ""
 
 search: false
 
-defaults:        
+defaults:
+
+  - scope:
+      path: "assets/images/reinslogo"
+    values:
+      image: true
+        
   - scope:
       path: ""
       type: pages
@@ -33,12 +39,6 @@ defaults:
       classes: wide
       header:
         overlay_image: "/assets/images/r1.jpg"
-
-  - scope:
-      path: "assets/images/reinslogo"
-    values:
-      image: true
-
         
   - scope:
       path: "about"
@@ -71,5 +71,43 @@ defaults:
     values:
       place: "partners"
       sidebar:
-        nav: "s_partners"            
+        nav: "s_partners"
+            
+  - scope:
+      path: "en"
+      type: pages
+    values:
+      lang: en
 
+  - scope:
+      path: "en/about"
+      type: pages
+    values:
+      place: "about"
+      sidebar:
+        nav: "en_about"
+        
+  - scope:
+      path: "en/services"
+      type: pages
+    values:
+      place: "services"
+      sidebar:
+        nav: "en_services"
+        
+  - scope:
+      path: "en/reinsurance"
+      type: pages
+    values:
+      place: "reinsurance"
+      sidebar:
+        nav: "en_reinsurance"
+      header: []
+        
+  - scope:
+      path: "en/partners"
+      type: pages
+    values:
+      place: "partners"
+      sidebar:
+        nav: "en_partners"            

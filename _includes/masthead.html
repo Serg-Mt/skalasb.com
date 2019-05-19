@@ -13,7 +13,12 @@
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.masthead_title | default: site.title }}</a>
         <ul class="visible-links">
-          {%- for link in site.data.navigation.main -%}
+          {% if page.lang == 'en' %}
+            {% assign navi = site.data.navigation.en_main %}
+          {% else %}
+             {% assign navi = site.data.navigation.main %}
+          {% endif %}
+          {%- for link in navi -%}
             {%- if link.url contains '://' -%}
               {%- assign url = link.url -%}
             {%- else -%}

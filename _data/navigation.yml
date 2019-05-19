@@ -15,6 +15,25 @@ main:
     url: /contacts
     place: "contacts"
 
+en_main:
+  - title: "About Company"
+    url: /en/about/
+    place: "about"
+  - title: "Services"
+    url: /en/services/
+    place: "services"
+  - title: "Risk Solutions"
+    url: /en/reinsurance/property
+    place: "reinsurance"
+  - title: "Partners"
+    url: /en/partners/
+    place: "partners"
+  - title: "Contacts"
+    url: /en/contacts
+    place: "contacts"
+
+
+
 s_about:
   - title: "Информация"
     url: /about/info
@@ -24,6 +43,17 @@ s_about:
     url: /about/managers
   - title: "История"
     url: /about/story
+
+en_about:
+  - title: "Information"
+    url: /en/about/info
+  - title: "License"
+    url: /en/about/license
+  - title: "Management"
+    url: /en/about/managers
+  - title: "History"
+    url: /en/about/story
+
   
 s_services:
   - title: "Перестрахование"
