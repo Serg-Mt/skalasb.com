@@ -4,6 +4,7 @@
   {% assign site_locale = 'en' %}
 {% else %}
   {% assign site_title = site.title %}
+  {% assign top_url = '/' %}
   {% assign site_locale = 'ru' %}
 {% endif %}
 
@@ -18,9 +19,9 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         {% unless logo_path == empty %}
-          <a class="site-logo" href="{{ '/' | top_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
+          <a class="site-logo" href="{{ top_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | top_url }}">{{ site.masthead_title | default: site_title }}</a>
+        <a class="site-title" href="{{ top_url }}">{{ site.masthead_title | default: site_title }}</a>
         <ul class="visible-links">
           {% if page.lang == 'en' %}
             {% assign navi = site.data.navigation.en_main %}
