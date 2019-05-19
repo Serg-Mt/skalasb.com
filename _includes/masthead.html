@@ -1,3 +1,9 @@
+{% if page.lang == 'en' %}
+  {% site_title = site.en_title %}
+{% else %}
+  {% assign site_title = site.title %}
+{% endif %}
+
 {% if site.logo contains "://" %}
   {% capture logo_path %}{{ site.logo }}{% endcapture %}
 {% else %}
@@ -11,7 +17,7 @@
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.masthead_title | default: site.title }}</a>
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.masthead_title | default: site_title }}</a>
         <ul class="visible-links">
           {% if page.lang == 'en' %}
             {% assign navi = site.data.navigation.en_main %}

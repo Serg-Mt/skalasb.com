@@ -17,6 +17,7 @@ locale: "ru-RU"
 timezone: Europe/Moscow
 
 title: "Скала Страховой Брокер"
+en_title: "Skala Reinsurance Brokers"
 
 logo: "/assets/images/logo.png"
 

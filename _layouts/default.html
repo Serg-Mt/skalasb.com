@@ -26,7 +26,13 @@
 
     <div class="page__footer">
       <footer>        
-        <div class="page__footer-copyright">&copy;  «Скала Страховой Брокер» ООО. Все права защищены </div>        
+        <div class="page__footer-copyright">
+		{% if page.lang == 'en' %}
+		        &copy; Skala Reinsurance Brokers Ltd
+		{% else %}
+			&copy;  «Скала Страховой Брокер» ООО. Все права защищены
+		{% endif %}
+	 </div>        
       </footer>
     </div>
 
