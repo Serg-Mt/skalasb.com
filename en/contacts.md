@@ -3,7 +3,10 @@ title: "Contacts"
 layout: splash
 place: contacts
 ---
-+7 (499) 973-38-52,<br> +7 (499) 973-38-42,<br> +7 (499) 973-30-35
+
+Tel: <a href="tel:+7-499-973-38-52">+7 (499) 973-38-52</a>,<br>
+<a href="tel:+7-499-973-38-42">+7 (499) 973-38-42</a>,<br>
+<a href="tel:+7-499-973-30-35">+7 (499) 973-30-35</a>
  
 Е-mail: <span style="">off</span><span style="display:none">ffo</span>ice&#64;sk<!-- sk -->al<span style="">as</span>b&#46;ru
 
