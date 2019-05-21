@@ -40,9 +40,9 @@ s_about:
   - title: "Лицензия"
     url: /about/license
   - title: "Руководство"
-    url: /about/managers
+    url: /about/management
   - title: "История"
-    url: /about/story
+    url: /about/history
 
 en_about:
   - title: "Information"
@@ -50,10 +50,9 @@ en_about:
   - title: "License"
     url: /en/about/license
   - title: "Management"
-    url: /en/about/managers
+    url: /en/about/management
   - title: "History"
-    url: /en/about/story
-
+    url: /en/about/history
   
 s_services:
   - title: "Перестрахование"
@@ -63,7 +62,17 @@ s_services:
   - title: "Консалтинг"
     url: /services/consulting
   - title: "Урегулирование"
-    url: /services/settlement
+    url: /services/handling
+
+en_services:
+  - title: "Reinsurance"
+    url: /en/services/reinsurance
+  - title: "Insurance"
+    url: /en/services/insurance
+  - title: "Consulting"
+    url: /en/services/consulting
+  - title: "Claims handling"
+    url: /en/services/handling
 
 s_reinsurance:
   - title: "Имущество"
@@ -71,29 +80,60 @@ s_reinsurance:
   - title: "Авиация"
     url: /reinsurance/aviation
   - title: "Строймонтаж"
-    url: /reinsurance/build
+    url: /reinsurance/contracts
   - title: "Грузы"
-    url: /reinsurance/loads
+    url: /reinsurance/cargo
   - title: "Ответственность"
     url: /reinsurance/liability
   - title: "Нефтяные риски"
-    url: /reinsurance/petroleum
+    url: /reinsurance/energy
   - title: "Несчастный случай"
     url: /reinsurance/accident
   - title: "Музеи и выставки"
     url: /reinsurance/museums
   - title: "Санкционные риски"
-    url: /reinsurance/sanctions
+    url: /reinsurance/sanctioned
   - title: "Катастрофическое покрытие"
     url: /reinsurance/catastrophe
+    
+en_reinsurance:
+  - title: "Property"
+    url: /en/reinsurance/property
+  - title: "Aviation"
+    url: /en/reinsurance/aviation
+  - title: "CAR/EAR"
+    url: /en/reinsurance/contracts 
+  - title: "Cargo"
+    url: /en/reinsurance/cargo
+  - title: "Liability"
+    url: /en/reinsurance/liability
+  - title: "Energy"
+    url: /en/reinsurance/energy
+  - title: "Personal accident"
+    url: /en/reinsurance/accident
+  - title: "Museum and Gallery Insurance"
+    url: /en/reinsurance/museums
+  - title: "Sanctioned business"
+    url: /en/reinsurance/sanctioned
+  - title: "CAT Reinsurance"
+    url: /en/reinsurance/catastrophe
    
+
+
 s_partners:
   - title: "Страховщики"
     url: /partners/insurers
   - title: "Перестраховщики"
     url: /partners/reinsurers
   - title: "Отзывы"
-    url: /partners/comments
+    url: /partners/feedback
     
+en_partners:
+  - title: "Insurers"
+    url: /en/partners/insurers
+  - title: "Reinsurers"
+    url: /en/partners/reinsurers
+  - title: "Client’s feedback"
+    url: /en/partners/feedback
 
     

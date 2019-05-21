@@ -1,7 +1,6 @@
 ---
 title: "Management"
 ---
-
 ![image-left](/assets/images/gendirfoto.jpg){: .align-left}
 Alexander Tsekalo – Chief Executive Officer, Founder and Owner
 of the Company

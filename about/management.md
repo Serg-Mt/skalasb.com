@@ -1,7 +1,6 @@
 ---
 title: "Руководство"
 ---
-
 ![image-left](/assets/images/gendirfoto.jpg){: .align-left}
 **Цикало Александр Иванович&nbsp;&mdash; Генеральный директор,
 основатель и&nbsp;собственник компании**

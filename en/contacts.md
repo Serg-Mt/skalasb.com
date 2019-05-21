@@ -1,15 +1,9 @@
 ---
-title: "Наши контакты"
+title: "Contacts"
 layout: splash
 place: contacts
 ---
-
-<!-- ![image-center](/assets/images/facade.jpg){: .align-left} -->
-«Скала Страховой Брокер» ООО
-
-127055, г. Москва, Сущевская ул., д.12, стр.1 <br> Бизнес центр Сущевский 
-
-Тел: +7 (499) 973-38-52,<br> +7 (499) 973-38-42,<br> +7 (499) 973-30-35
++7 (499) 973-38-52,<br> +7 (499) 973-38-42,<br> +7 (499) 973-30-35
  
 Е-mail: <span style="">off</span><span style="display:none">ffo</span>ice&#64;sk<!-- sk -->al<span style="">as</span>b&#46;ru
 
