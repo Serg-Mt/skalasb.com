@@ -2,28 +2,31 @@
 title: "Insurers"
 ---
 
-### Страховые компании, в интересах которых мы осуществляем страхование:
-* ООО "Абсолют Страхование" 
-* ОАО "АльфаСтрахование" 
-* ООО "СК "АРСЕНАЛЪ" 
-* САО "ВСК" 
-* ООО "Зетта Страхование" 
-* СПАО "Ингосстрах" 
-* ООО "КРК-Страхование"
-* ЗАО "МАКС" 
-* ООО "Страховая компания "Мегарусс-Д" 
-* АО "Объединенная страховая компания" 
-* АО СК "ПАРИ" 
-* ООО СК "Паритет-СК" 
-* ЗАО ГСАО "Плато"
-* ООО "Страховое Общество "Помощь"
-* СПАО "РЕСО-Гарантия" 
-* ПАО СК "Росгосстрах" 
-* ООО СК «Сбербанк страхование»
-* ПАО "СОГАЗ" 
-* ООО "СК "Согласие" 
-* АО "Страховое общество "Талисман"
-* ООО "СК "ТИТ" 
-* ПАО "САК "Энергогарант" 
+### Insurance companies in whose interests we provide insurance:
+* Absolut Insurance Ltd.
+* AlfaStrakhovanie PLC
+* Arsenal Insurance Company Ltd.
+* VSK PLC
+* Zetta Insurance Ltd.
+* Ingosstrakh PLC
+* MAKC CJSC
+* Megaruss-D Insurance Company Ltd.
+* The United Insurance Company, CJSC
+* Insurance Company Pari JSC
+* Insurance Company Paritet-SK Ltd.
+* Plateau Insurance Company JSC
+* Insurance Company Pomosсh LLC
+* Reso-Garantiya PLC
+* Rosgosstrakh PLC
+* Sberbank Insurance Ltd.
+* SOGAZ PLC
+* Soglasie Ltd.
+* Talisman-SO JSC
+* TIT Insurance Company Ltd.
+* Energogarant PLC
 
-**СКАЛА постоянно мониторит страховщиков на предмет финансовой устойчивости, перестраховочной защиты, имеющихся нарушений в сфере страхового законодательства, а также готовит информационные анкеты о страховщиках согласно Закону РФ от 07.08.2001г. № 115-ФЗ «О противодействии легализации (отмыванию) доходов, полученных преступным путем, и финансированию терроризма».**
+SKALA constantly monitors insurers for financial stability, reinsurance protection,
+existing violations in the field of insurance legislation, and prepares informational forms about
+insurers in accordance with the Law of the Russian Federation of 07.08.2001. № 115-FZ on
+countering the legalization (laundering) of criminally obtained income and the financing of
+terrorism.
