@@ -9,7 +9,7 @@ main:
     url: /reinsurance/property
     place: "reinsurance"
   - title: "Партнеры"
-    url: /partners/
+    url: /partners/reinsurers
     place: "partners"
   - title: "Контакты"
     url: /contacts
@@ -26,7 +26,7 @@ en_main:
     url: /en/reinsurance/property
     place: "reinsurance"
   - title: "Partners"
-    url: /en/partners/
+    url: /en/partners/reinsurers
     place: "partners"
   - title: "Contacts"
     url: /en/contacts
@@ -121,19 +121,20 @@ en_reinsurance:
 
 
 s_partners:
-  - title: "Страховщики"
-    url: /partners/insurers
   - title: "Перестраховщики"
     url: /partners/reinsurers
+  - title: "Страховщики"
+    url: /partners/insurers
   - title: "Отзывы"
     url: /partners/feedback
     
 en_partners:
-  - title: "Insurers"
-    url: /en/partners/insurers
   - title: "Reinsurers"
     url: /en/partners/reinsurers
-  - title: "Client’s feedback"
-    url: /en/partners/feedback
+  - title: "Insurers"
+    url: /en/partners/insurers
+ 
+#  - title: "Client’s feedback"
+#    url: /en/partners/feedback
 
     
