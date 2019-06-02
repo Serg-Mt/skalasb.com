@@ -1,19 +1,22 @@
+<div style="position: absolute; top: 0; right: 0; z-index: 99; font-size: initial;">
 {% if page.lang == 'en' %}
   {% assign site_title = site.en_title %}
   {% assign top_url = '/en' %}
   {% assign site_locale = 'en' %}
+<a href="/">Rus></a>&nbsp;/&nbsp;Eng
 {% else %}
   {% assign site_title = site.title %}
   {% assign top_url = '/' %}
   {% assign site_locale = 'ru' %}
+Rus&nbsp;/&nbsp;<a href="/en">Eng</a>
 {% endif %}
+</div>
 
 {% if site.logo contains "://" %}
   {% capture logo_path %}{{ site.logo }}{% endcapture %}
 {% else %}
   {% capture logo_path %}{{ site.logo }}{% endcapture %}
 {% endif %}
-
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
