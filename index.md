@@ -2,7 +2,7 @@
 title: "&nbsp;"
 layout: splash
 ---
-
+{% include lang_select.html %}
 Уважаемые коллеги,
 
 Для меня большая честь приветствовать вас на&nbsp;сайте &laquo;Скала Страховой Брокер&raquo;.
