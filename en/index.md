@@ -1,6 +1,7 @@
 ---
 title: "&nbsp;"
 layout: splash
+place: root
 ---
 Dear Colleagues,
 
