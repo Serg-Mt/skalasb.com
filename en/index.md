@@ -2,7 +2,6 @@
 title: "&nbsp;"
 layout: splash
 ---
-{% include lang_select.html %} 
 Dear Colleagues,
 
 It is a great honor for me to welcome you on our site.
