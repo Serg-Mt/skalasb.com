@@ -37,7 +37,9 @@ $footer-background-color: #c8e4ee;
     background: white;
     top:0;
 }
-
+.masthead__inner-wrap {
+    max-width: 9999px;
+}
 .sidebar.sticky {
     top: 89px;
 }
