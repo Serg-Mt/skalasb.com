@@ -16,9 +16,6 @@
   {% capture logo_path %}{{ site.logo }}{% endcapture %}
 {% endif %}
 
-{% if page.place == 'root' %}
-<div style="position: absolute; top: 0; right: 0; z-index: 99; font-size: initial;">{% if page.lang == 'en' %}<a href="/">Rus</a>&nbsp;/&nbsp;Eng{% else %}Rus&nbsp;/&nbsp;<a href="/en">Eng</a>{% endif %}</div>
-{% endif %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -62,6 +59,10 @@
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
+		{% if page.place == 'root' %}
+			<div style="font-size: initial;font-weight: bold;">{% if page.lang == 'en' %}<a href="/">Rus</a>&nbsp;/&nbsp;Eng{% else %}Rus&nbsp;/&nbsp;<a href="/en">Eng</a>{% endif %}</div>
+		{% endif %}
+
       </nav>
     </div>
   </div>
