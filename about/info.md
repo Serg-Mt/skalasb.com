@@ -22,7 +22,7 @@ title: "Информация"
 
 **Знак обслуживания**
 
-
+![логотип](https://github.com/skalasb/skalasb.github.io/blob/master/assets/images/Logo%20Skala%20Rgblue.jpg)
 
 **Участие в капитале**
 
