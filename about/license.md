@@ -6,3 +6,7 @@ title: "Лицензия"
 	<figcaption></figcaption>
 </figure> 
 
+<figure>
+	<a href="/assets/images/Svid-vo%20APSB.jpg"><img src="/assets/images/Svid-vo%20APSB_s_.jpg"/></a>
+	<figcaption></figcaption>
+</figure> 
