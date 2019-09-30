@@ -43,6 +43,8 @@ s_about:
     url: /about/management
   - title: "История"
     url: /about/history
+  - title: "Стандарты"
+    url: /about/standards
 
 en_about:
   - title: "Information"
