@@ -18,6 +18,17 @@
 
 
 <div class="masthead">
+  {% if page.place == 'root' %}
+    <div style="font-size: initial;font-weight: bold;position: relative; left: 90%;height: 1px;">
+      <nobr>
+        {% if page.lang == 'en' %}
+          <a href="/" style="display: inline;margin: 0;">Rus</a>&nbsp;/&nbsp;Eng
+        {% else %}
+          Rus&nbsp;/&nbsp;<a href="/en" style="display: inline;margin: 0;">Eng</a>
+        {% endif %}
+      </nobr>
+    </div>
+  {% endif %}   
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
@@ -59,17 +70,7 @@
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
-		{% if page.place == 'root' %}
-			<div style="font-size: initial;font-weight: bold;position: relative; top: -25px;">
-				<nobr>
-					{% if page.lang == 'en' %}
-						<a href="/" style="display: inline;margin: 0;">Rus</a>&nbsp;/&nbsp;Eng
-					{% else %}
-						Rus&nbsp;/&nbsp;<a href="/en" style="display: inline;margin: 0;">Eng</a>
-					{% endif %}
-				</nobr>
-			</div>
-		{% endif %}
+		
       </nav>
     </div>
   </div>
