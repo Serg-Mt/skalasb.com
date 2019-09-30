@@ -23,7 +23,7 @@ logo: "/assets/images/logo.png"
 
 description: ""
 
-search: false
+search: true
 
 defaults:
 
