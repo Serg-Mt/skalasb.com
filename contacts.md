@@ -19,5 +19,7 @@ place: contacts
 <script charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A963cea272b12473dee58222b814857983cc8cc446a1ba00b1f54048fa34f5312&amp;width=559&amp;height=436&amp;lang=ru_RU&amp;scroll=true" type="text/javascript"></script>
 
 Режим работы:
+
 пн – пт с 9.00 до 18.00
+
 сб, вс – выходные.
