@@ -4,7 +4,12 @@ remote_theme: mmistakes/minimal-mistakes@4.16.3
 plugins:
   - jekyll-include-cache
   - jekyll-sitemap  
-#  - jekyll-lunr-js-search
+  - jekyll-lunr-js-search
+
+lunr_search:
+  excludes: [rss.xml, atom.xml]
+  min_length: 3
+  js_dir: "/assets/js/lunr"
 
 markdown: kramdown
 
