@@ -4,9 +4,10 @@ layout: null
 
 var store = [
     {%- for doc in site.pages -%}
-	{% unless doc.url contains ".html" %}
+	{%- if doc.place and doc.place != '404'-%}
+           {%- else -%}
 		{% continue %}
-	{% unless %}
+	{%- endif -%}
       {%- if doc.header.teaser -%}
         {%- capture teaser -%}{{ doc.header.teaser }}{%- endcapture -%}
       {%- else -%}
