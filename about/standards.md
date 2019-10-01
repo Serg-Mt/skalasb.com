@@ -19,8 +19,8 @@ title: "Стандарты"
 - Письменно по адресу: 109004, г. Москва, ул. Земляной Вал, д. 64, стр. 2<br>
 Контакты:
 Тел.: + 7 (495) 915-80-40
-E-mail:  info@insurancebroker.ru
-<a href="http://insurancebroker.ru/" target="_blank">insurancebroker.ru</a>
+E-mail:  info@insurancebroker.ru<br>
+Сайт: <a href="http://insurancebroker.ru/" target="_blank">insurancebroker.ru</a>
 
 
 ### Способы защиты прав получателей финансовых услуг
