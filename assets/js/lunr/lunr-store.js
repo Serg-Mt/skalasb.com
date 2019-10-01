@@ -1,14 +1,9 @@
 ---
 layout: null
 ---
-// lunr index
+
 var store = [
-  {%- for c in site.collections -%}
-    {%- if forloop.last -%}
-      {%- assign l = true -%}
-    {%- endif -%}
-    {%- assign docs = c.docs | where_exp:'doc','doc.search != false' -%}
-    {%- for doc in docs -%}
+    {%- for doc in site.pages -%}
       {%- if doc.header.teaser -%}
         {%- capture teaser -%}{{ doc.header.teaser }}{%- endcapture -%}
       {%- else -%}
@@ -49,6 +44,6 @@ var store = [
           {%- else -%}
             {{ teaser | absolute_url | jsonify }}
           {%- endif -%}
-      }{%- unless forloop.last and l -%},{%- endunless -%}
-    {%- endfor -%}
-  {%- endfor -%}]
+      }{%- unless forloop.last -%},{%- endunless -%}
+    
+    {%- endfor -%}]
