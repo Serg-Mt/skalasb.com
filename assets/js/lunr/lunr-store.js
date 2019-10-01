@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-
+// lunr index
 var store = [
   {%- for c in site.collections -%}
     {%- if forloop.last -%}
