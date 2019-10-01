@@ -4,6 +4,9 @@ layout: null
 
 var store = [
     {%- for doc in site.pages -%}
+	{% unless doc.url contains ".html" %}
+		{% continue %}
+	{% unless %}
       {%- if doc.header.teaser -%}
         {%- capture teaser -%}{{ doc.header.teaser }}{%- endcapture -%}
       {%- else -%}
