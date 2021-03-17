@@ -15,9 +15,9 @@ $footer-background-color: #c8e4ee;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// .page__hero--overlay {
-//     background-attachment: fixed;
-// }
+.page__hero--overlay {
+    background-attachment: fixed;
+}
 .greedy-nav {background: transparent;}
 .page__content p {text-align: justify;}
 .page__footer-copyright {color: $mylinkcolor;}
