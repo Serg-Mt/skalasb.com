@@ -14,7 +14,6 @@ title: "Insurers"
 * The United Insurance Company, CJSC
 * Insurance Company Pari JSC
 * Insurance Company Paritet-SK Ltd.
-* Plateau Insurance Company JSC
 * Insurance Company Pomosсh LLC
 * Reso-Garantiya PLC
 * Rosgosstrakh PLC
