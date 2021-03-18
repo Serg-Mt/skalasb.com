@@ -17,6 +17,9 @@ $footer-background-color: #c8e4ee;
 
 .page__hero--overlay {
     background-attachment: fixed;
+    background-size: contain;
+    background-position: top;
+    padding: 0 0 6em;
 }
 .greedy-nav {background: transparent;}
 .page__content p {text-align: justify;}
@@ -24,7 +27,7 @@ $footer-background-color: #c8e4ee;
 .nav__sub-title {color: $mylinkcolor;}
 .page__footer { 
 	background-image: url(/assets/images/r1.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed; 
