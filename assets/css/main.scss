@@ -21,6 +21,12 @@ $footer-background-color: #c8e4ee;
     background-position: top;
     padding: 0 0 6em;
 }
+
+@media (max-width: 1170px){
+    .page__hero--overlay {
+        background-size: 180vw;
+
+}
 .greedy-nav {background: transparent;}
 .page__content p {text-align: justify;}
 .page__footer-copyright {color: $mylinkcolor;}
