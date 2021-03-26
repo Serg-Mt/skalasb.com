@@ -22,7 +22,7 @@ $footer-background-color: #c8e4ee;
     padding: 0 0 6em;
 }
 
-@media (max-width: 1170px){
+@media screen and (max-width: 1170px){
     .page__hero--overlay {
         background-size: 180vw;
     }
