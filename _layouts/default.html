@@ -11,7 +11,7 @@
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-
+    <script>console.log(' _layouts\default.html {{ site.time }} -{{ page.name }} - {{ layout.name }}');</script>
     {% include_cached browser-upgrade.html %}
     {% if page.place != '404' %}
       {% include masthead.html %}
