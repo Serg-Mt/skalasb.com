@@ -9,9 +9,9 @@ build: {{ site.time }}<br/>
 jekyll: {{ jekyll | jsonify }}<br/>
 <details>
     <summary>GitHub:</summary>
-    <pre>
+    {% highlight JSON %}
         {{ site.github | jsonify }}
-    </pre>    
+    {% endhighlight %} 
 </details>
 
 <h3>Pages:</h3>
