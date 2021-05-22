@@ -3,7 +3,7 @@ title: админка
 permalink: "/_/admin"
 sitemap: false
 ---
-{% capture domain %}{{ site.logo }}{% endcapture %}
+{% capture domain %}{{ site.url }}{% endcapture %}
 
 * [GitHub Репозиторий]({{ site.github.repository_url }})
 * [анализ сайта pr-cy.ru](https://a.pr-cy.ru/{{ domain }}/)
