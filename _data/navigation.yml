@@ -11,6 +11,9 @@ main:
   - title: "Партнеры"
     url: /partners/reinsurers
     place: "partners"
+  - title: "События"
+    url: /blog/
+    place: "blog"
   - title: "Контакты"
     url: /contacts
     place: "contacts"

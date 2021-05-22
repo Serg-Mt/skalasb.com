@@ -72,6 +72,17 @@ defaults:
       place: "partners"
       sidebar:
         nav: "s_partners"
+
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
             
   - scope:
       path: "en"
