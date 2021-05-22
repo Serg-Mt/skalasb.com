@@ -1,9 +1,8 @@
 remote_theme: mmistakes/minimal-mistakes@4.16.3
 
 
-# plugins:
-#   - jekyll-include-cache
-#   - jekyll-sitemap  
+plugins:
+  - jekyll-include-cache
 
 markdown: kramdown
 
