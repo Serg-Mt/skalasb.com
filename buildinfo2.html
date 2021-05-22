@@ -1,0 +1,145 @@
+---
+title: Информация по сборке
+layout: minimal
+sitemap: false
+permalink: /_/buildinfo
+---
+
+build: {{ site.time }}<br/>
+jekyll: {{ jekyll | jsonify }}<br/>
+<details>
+    <summary>GitHub:</summary>
+    <pre>
+        {{ site.github | jsonify }}
+    </pre>    
+</details>
+
+<h3>Pages:</h3>
+<table class="uk-table uk-table-striped uk-table-hover uk-table-small">
+    <tr>
+        <th></td>
+        <th>sortid</th>
+        <th>title</th>
+        <th>url</th>
+        <th>layout</th>
+        <th>path</th>
+    </tr>
+    {% assign sort_pages = site.pages | sort: "url" || sort: "cat" | sort: "sortid" %}
+    {% for p in sort_pages %}
+        <tr>
+            <td>
+                <span title="cat (категория)">{{ p.cat }}</span>
+                {% if p.main %}<span title="main (главное меню)">☑</span>
+                    {% if p.submenu %}<span title="submenu (подменю)">🍔</span>{% endif %}
+                {% endif %}
+            </td>
+            <td><span title="sortid (сортировка для меню)">{{ p.sortid }}</span>{%- if p.sitemap != false -%}{%- else -%}<span title="sitemap (удалено из поиска)">👻</span>{%- endif -%}</td>
+            <td>{{ p.title }}</td>
+            <td><a href="{{ p.url}}?{{site.time | date: '%s' }}">{{ p.url}}</a></td>
+            <td>{{ p.layout }}</td>
+            <td><span title="{% for v in p %}{% if v[0] == "content" or v[0] == "excerpt" %}{% continue %}{% endif %}{{ v[0] }}: {{ v[1] }}&#13;{% endfor %}">{{ p.path }}</span></td>            
+        </tr>
+    {% endfor %}
+
+</table>
+
+<h3>Documents:</h3>
+{% comment %}
+<table>
+    {% for d in site.documents %}
+        {% if forloop.first == true %}
+            <tr>
+                {% for p in d %}
+                    {% if p == "content" or p == "output" or p=="next" or p=="previous" %}{% continue %}{% endif %}
+                    <th>{{ p }}</th>
+                {% endfor %}
+            </tr>
+        {% endif %}
+        <tr>
+            {% for p in d %}
+                {% if p == "content" or p == "output" or p=="next" or p=="previous" %}{% continue %}{% endif %}
+                <td>
+                    {% if p == "url" %}
+                        <a href="{{ d.url}}">{{ d.url}}</a>
+                    {% elsif p == "excerpt" or p == "caption" or p == "description" %}
+                        <details>
+                            <summary></summary>
+                            {{ d[p] }}
+                        </details>
+                    {% else %}
+                        <!-- {{ p }} -->
+                        {{ d[p] }}
+                    {% endif %}
+                </td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+</table>
+{% endcomment %}
+
+<ul>
+{% for d in site.documents %}
+<li>
+    <a href="{{ d.url}}?{{site.time | date: '%s' }}">{{ d.url}}</a> {{ d.collection }} - {{ d.title }}
+    <details>
+            <summary></summary>
+            <table class="uk-table uk-table-striped uk-table-hover uk-table-small">
+                {% for p in d %}
+                {% if p == "content" or p == "output" or p=="next" or p=="previous" or p=="excerpt" %}{% continue %}{% endif %}
+                    <tr><td>{{ p }}</td><td>{{ d[p] }}</td></tr>
+                {% endfor %}
+            </table>
+    </details>
+</li>
+{% endfor %}
+</ul>
+
+<h3>Static files:</h3>
+<ol>
+    {% for f in site.static_files %}
+        <li>
+            <a href="{{ f.path}}" title="{% for p in f %} {{ p }} = {{ f[p] }}&nbsp;&semi;&nbsp;{% endfor %}">
+                {{- f.path -}}
+            </a>
+        </li>
+    {% endfor %}
+</ol>
+
+<h3>Site data:</h3>
+{{ site.data | jsonify }}   
+
+<h3>Collections:</h3>
+
+<ul>
+    {% for col in site.collections %}
+        <li>{{ col.label }} - {{ col.relative_directory }} - {{ col.output }}
+            <br/>DOCS:
+            <ol>
+                {% for d in col.docs %}
+                    <li><a href="{{ d.url}}">{{ d.url}}</a> &ndash; {{ d.title }}</li>
+                {% endfor %}
+            </ol>
+            FILES:
+            <ul>
+                {% for f in col.files %}
+                    <li><a href="{{ f.path}}">{{ f.path}}</a>{{ f.name }}</li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>
+
+
+<h3>Variables:</h3>
+<ul>
+    {% for var in site %}
+        {% unless site[var].first %}
+        <li>site.{{ var }} = {{ site[var] }}</li>            
+        {% endunless %}        
+    {% endfor%}
+    <hr>
+    {% for v in page %}
+    {% if v[0] == "content" or v[0] == "excerpt" %}{% continue %}{% endif %}
+        <li>page.{{ v[0] }} == {{ page[v[0]] }} ( {{ v[1] }} )</li>                  
+    {% endfor%}
+</ul>
