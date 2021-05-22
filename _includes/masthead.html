@@ -1,4 +1,3 @@
-<script>console.log('_includes\masthead.html {{ site.time }} -{{ page.name }} - {{ layout.name }}');</script>
 {% if page.lang == 'en' %}
   {% assign site_title = site.en_title %}
   {% assign top_url = '/en' %}
@@ -37,7 +36,7 @@
           {% unless logo_path == empty %}
             <img src="{{ logo_path | relative_url }}" alt="">
           {% endunless %}
-          <a class="site-title" href="{{ top_url }}">{{ site.masthead_title | default: site_title }}</a>
+          <div class="site-title" href="{{ top_url }}">{{ site.masthead_title | default: site_title }}</div>
         </a>
         
         
