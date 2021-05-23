@@ -8,7 +8,7 @@ permalink: /sitemap.xml
     {%- for p in sort_pages -%}
         {%- if p.title != nil and p.sitemap != false -%}
         <url>
-            <loc>{{ site.url }}{{ p.url | uri_escape }}</loc><!-- {{p.url}} -->
+            <loc>{{ site.url }}{{ p.url | uri_escape }}</loc>
             <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
             <priority>
                 {%- if p.cat == 0 -%}
