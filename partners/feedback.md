@@ -11,5 +11,5 @@ gallery:
     image_path: /assets/images/letter_tit_s.jpg
     title: "ООО «Страховая компания «ТИТ»"
 ---
-zz
+
 {% include gallery caption="" %}
