@@ -77,11 +77,11 @@ defaults:
       type: posts
     values:
       layout: splash
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       comments: true
       share: true
-      related: true
+      related: false
             
   - scope:
       path: "en"
