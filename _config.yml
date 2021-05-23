@@ -23,6 +23,8 @@ description: ""
 search: true
 search_full_content: true
 
+excerpt_separator: <!--more-->
+
 defaults:
 
   - scope:
