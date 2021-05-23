@@ -34,9 +34,9 @@
       <nav id="site-nav" class="greedy-nav">        
         <a class="site-logo" href="{{ top_url }}">
           {% unless logo_path == empty %}
-            <img src="{{ logo_path | relative_url }}" alt="">
+            <img src="{{ logo_path | relative_url }}" alt="" style="margin-bottom: 1em;">
           {% endunless %}
-          <div class="site-title" href="{{ top_url }}">{{ site.masthead_title | default: site_title }}</div>
+          <div class="site-title" style="position: absolute;margin-top: -1em;">{{ site.masthead_title | default: site_title }}</div>
         </a>
         
         
