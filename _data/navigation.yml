@@ -39,7 +39,6 @@ en_main:
     place: "contacts"
 
 
-
 s_about:
   - title: "Информация"
     url: /about/info
