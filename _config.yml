@@ -25,8 +25,10 @@ search_full_content: true
 
 excerpt_separator: <!--more-->
 
-defaults:
+collections:
+  - posts_en
 
+defaults:
   - scope:
       path: "assets/images/reinslogo"
     values:

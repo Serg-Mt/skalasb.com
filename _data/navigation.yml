@@ -12,7 +12,7 @@ main:
     url: /partners/reinsurers
     place: "partners"
   - title: "События"
-    url: /2021/04/04/20-years.html
+    url: /blog
     place: "blog"
   - title: "Контакты"
     url: /contacts
@@ -31,6 +31,9 @@ en_main:
   - title: "Partners"
     url: /en/partners/reinsurers
     place: "partners"
+  - title: "Events"
+    url: /en/blog
+    place: "blog"    
   - title: "Contacts"
     url: /en/contacts
     place: "contacts"
