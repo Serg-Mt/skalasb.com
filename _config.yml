@@ -80,7 +80,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: splash
+      layout: single
+      classes: wide
       author_profile: false
       read_time: false
       comments: true
