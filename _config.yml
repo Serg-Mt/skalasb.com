@@ -26,7 +26,8 @@ search_full_content: true
 excerpt_separator: <!--more-->
 
 collections:
-  - posts_en
+  posts_en:
+    output: true
 
 defaults:
   - scope:
