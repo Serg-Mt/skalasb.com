@@ -45,5 +45,13 @@ layout: compress
 
     {% include scripts.html %}
 
+    {%- if page.sitemap != false -%}
+      {%- include google-gtag.html -%}
+      {%- include yandex-metr.html -%}
+      <!-- {%- include facebook-pixel.html -%}
+      {%- include vk-pixel.html -%} -->
+    {%- endif -%}
+
+
   </body>
 </html>
