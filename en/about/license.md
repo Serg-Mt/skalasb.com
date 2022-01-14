@@ -12,7 +12,6 @@ title: "License"
 <figure class="third">
 <figcaption>Broker’s professional indemnity insurance:</figcaption>
 	<a href="/assets/images/cert_en_l.jpg">
-	Broker’s professional indemnity insurance:
 	<img src="/assets/images/cert_en_s.jpg"/></a>
 </figure>
 
