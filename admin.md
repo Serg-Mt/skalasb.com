@@ -11,6 +11,7 @@ sitemap: false
 * [Яндекс Метрика](https://metrika.yandex.ru/dashboard?id=82994449)
 * [Google Search Console](https://search.google.com/search-console?hl=ru&resource_id=sc-domain:{{ domain }})
 * [Microsoft Bing - Webmaster Tools](https://www.bing.com/webmasters/?siteUrl=https://{{ domain }}/) 
+* [WebPageTest](https://www.webpagetest.org/)
 
 
 
