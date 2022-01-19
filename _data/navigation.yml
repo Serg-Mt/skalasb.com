@@ -42,7 +42,7 @@ en_main:
 s_about:
   - title: "Информация"
     url: /about/info
-  - title: "Лицензия"
+  - title: "Лицензия и Полис"
     url: /about/license
   - title: "Руководство"
     url: /about/management
