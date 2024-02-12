@@ -6,7 +6,7 @@ place: contacts
 
 Skala Reinsurance Brokers Ltd.
 
-Business center 'Sushchevskiy'<br> b 1, 12 Sushchevskaya Str.<br>Moscow, Russia, 127030
+Business center 'Sushchevskiy'<br> b 1, 12 Sushchevskaya Str.<br>Moscow, Russia, 127055
 
 Tel: <a href="tel:+7-499-973-38-52">+7 (499) 973-38-52</a>,<br>
 <a href="tel:+7-499-973-38-42">+7 (499) 973-38-42</a>,<br>
