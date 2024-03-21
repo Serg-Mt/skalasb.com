@@ -20,7 +20,7 @@ We strive for long-term cooperation that is possible only when both parties are 
 a common goal.
 
 <a href="/en/blog">
-<img src="/assets/images/20-years/Logo_20.png" alt="" class="align-right" 
+<img src="/assets/images/logo.png" alt="" class="align-right" 
 style="width: 50%;">
 </a>
 Yours sincerely,
