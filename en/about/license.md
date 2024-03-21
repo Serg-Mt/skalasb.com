@@ -1,7 +1,7 @@
 ---
 title: "License"
 ---
-<figure class="">
+<figure class="third">
 	<a href="/assets/images/license_l.jpg">
 		License original (RUS)
 		<img src="/assets/images/license_s.jpg"/>
