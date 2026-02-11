@@ -12,7 +12,7 @@ place: contacts
 <a href="tel:+7-499-973-38-42">+7 (499) 973-38-42</a>,<br>
 <a href="tel:+7-499-973-30-35">+7 (499) 973-30-35</a>
  
-Е-mail: <span style="">off</span><span style="display:none">ffo</span>ice&#64;sk<!-- sk -->al<span style="">as</span>b&#46;com<br>
+Е-mail: <span style="">off</span><span style="display:none"></span>ice&#64;sk<!-- sk -->al<span style="">as</span>b&#46;com<br>
 Site: <a href="https://skalasb.com">https://skalasb.com</a><br>
 
 
