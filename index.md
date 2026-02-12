@@ -16,8 +16,7 @@ place: root
 Самое главное, мы&nbsp;стремимся к&nbsp;долгосрочному сотрудничеству, которое возможно только тогда, когда обе стороны работают открыто на&nbsp;пути к&nbsp;общей цели.
 
 <a href="/2021/04/04/20-years.html">
-<img src="/assets/images/logo.png" alt="" class="align-right" 
-style="width: 50%;">
+<img src="assets/images/25-years/Logo25finalSkala.jpg" alt="" class="align-right" style="width: 50%;">
 </a>
 Искренне Ваш,
 
